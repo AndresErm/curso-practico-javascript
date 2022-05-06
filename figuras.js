@@ -91,11 +91,34 @@
     // console.log("El perimetro del Circulo es: "+ areaCirculo + "cm^2");
     
 
+    console.groupEnd();
+
+    // Triangulo Isosceles
+
+let alturaIsoseles = function(lado1, lado2, base){
+
+    if(lado1 === lado2 && lado1 != base){
+        const paso1 = Math.pow(lado1**lado2); 
+        const paso2 = Math.pow(base**2); 
+        const paso3 = ( paso2 / 4 );
+        const paso4 = ( paso1 - paso3 );
+        const paso5Altura = Math.sqrt( paso4 );
+        // const altura = Math.sqrt(lado1**lado2 - base**2 / 4);
+        console.log( paso5Altura);;
+    }else{
+        console.log("No es un triangulo isosceles por favor ingrese uno que si cumpla"+
+        "con la condición, dos lados iguales y una base diferente a la medida de los lados");
+    }
+    
+    return lado1,lado2,base ;
+
+
+}
+
+console.log( "Esta es la altura de tu Triangulo Isoseles: " + alturaIsoseles(6, 6, 8));
 
 
 
-
-console.groupEnd();
 
 
 // Aqui interactuamos con el HTML
