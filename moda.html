@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moda</title>
+    <style>
+        *{
+            color: #ffff;
+            background-color: rgb(37, 34, 34);
+        }
+        #sectionMediaAritmetica{
+            width: 300px;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+            color: #ffff;
+            border-width: 1px;
+            border-style: solid;
+        }
+
+        #mediaAritmeticaValues{
+            color: #ffff;
+            border-width: 3px;
+            border-style: solid;
+            border-color: #ffff;
+            border-radius: 8px;
+        }
+        
+        #btnCalMediaAritmetica{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            color: #ffff;
+            border-width: 2px;
+            border-style: solid;
+            border-color: #ffff;
+            border-radius: 8px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>MODA</h1>
+    <section>
+        <form>
+            <div id="sectionMediaAritmetica">
+
+                <label for="mediaAritmeticaValues">
+                    <input type="text" id="mediaAritmeticaValues">
+                    <button type="button" id="btnCalMediaAritmetica" onclick="calMediaAritmetica()">
+                        Calcula la Moda aritmetica
+                    </button>
+                </label>
+                
+            </div>
+        
+        </form>
+    </section>
+
+    <script src="moda.js"></script>
+    
+</body>
+</html>
