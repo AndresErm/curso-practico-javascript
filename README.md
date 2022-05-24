@@ -26,6 +26,14 @@
 - Teercer paso: Crear Funciones
 - Cuarto paso: Integrar JavaScript con HTML
 
+## Taller #3: Reto ## Promedio Final de calificaciones
+ ## El ususario debe de introducir las calificaciones de los 3 parciales
+- Primer paso : Definir las fórmulas
+- Segundo paso : Inplementar las formular en JavaScript 
+- Teercer paso: Crear Funciones
+- Cuarto paso: Integrar JavaScript con HTML
+
+
 
 
 
